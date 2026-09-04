@@ -1,0 +1,62 @@
+[
+  {
+    "id": "bench-001",
+    "category": "simple_factual",
+    "prompt": "What is the capital of Japan?",
+    "expected_difficulty": "easy"
+  },
+  {
+    "id": "bench-002",
+    "category": "simple_factual",
+    "prompt": "Who wrote the novel Pride and Prejudice?",
+    "expected_difficulty": "easy"
+  },
+  {
+    "id": "bench-003",
+    "category": "summarization",
+    "prompt": "Summarize the plot of Romeo and Juliet in three sentences.",
+    "expected_difficulty": "medium"
+  },
+  {
+    "id": "bench-004",
+    "category": "summarization",
+    "prompt": "Read the following product feedback and summarize the main complaints and the main compliments in two short paragraphs: 'The battery life is great and lasts almost two days, but the app crashes constantly and the customer support took a week to respond. The camera quality is excellent in daylight but poor at night. Setup was confusing at first.'",
+    "expected_difficulty": "medium"
+  },
+  {
+    "id": "bench-005",
+    "category": "coding",
+    "prompt": "Write a Python function that checks whether a given string is a palindrome.",
+    "expected_difficulty": "medium"
+  },
+  {
+    "id": "bench-006",
+    "category": "coding",
+    "prompt": "Debug this Python function, explain the root cause of the bug, and then refactor it to handle edge cases: it is supposed to return the second largest number in a list but throws an exception on lists with duplicate values.",
+    "expected_difficulty": "hard"
+  },
+  {
+    "id": "bench-007",
+    "category": "reasoning",
+    "prompt": "Why do objects of different mass fall at the same rate in a vacuum? Explain the underlying physics.",
+    "expected_difficulty": "medium"
+  },
+  {
+    "id": "bench-008",
+    "category": "reasoning",
+    "prompt": "Compare and evaluate the trade-offs between a relational database and a NoSQL database for an application with rapidly changing schema requirements, and explain which you would recommend and why.",
+    "expected_difficulty": "hard"
+  },
+  {
+    "id": "bench-009",
+    "category": "multi_step_reasoning",
+    "prompt": "First, identify the key risks of launching a new mobile app in a market with three established competitors. Then, for each risk, propose a mitigation strategy. Finally, rank the strategies by expected impact and explain your ranking.",
+    "expected_difficulty": "hard"
+  },
+  {
+    "id": "bench-010",
+    "category": "complex_analysis",
+    "prompt": "Analyze the architectural trade-offs of migrating a monolithic e-commerce backend to microservices, considering data consistency, deployment complexity, team structure, and operational cost. Then design a step by step migration plan, explain the root cause of common migration failures, and propose an architecture diagram description along with a rollback strategy for the cutover window.",
+    "expected_difficulty": "hard"
+  }
+]
